@@ -1,5 +1,9 @@
 --- Symbol List (sorted by symbol)
 0.21stcentury            0001                  
+0.condpart0              f480                  
+0.condpart1              f487                  
+0.condpart2              f490                  
+0.condpart3              f499                  
 0.continuelastP0         f165              (R )
 0.continuelastP1         f139              (R )
 0.continueP0             f0d6              (R )
@@ -9,13 +13,26 @@
 0.kerloop                f08f                  
 0.L00                    f45d                  
 0.L01                    f461                  
+0.L010                   f49b                  
+0.L011                   f4b0                  
+0.L012                   f4b3                  
 0.L02                    f463                  
-0.L03                    f466                  
+0.L03                    f467                  
+0.L04                    f473                  
+0.L05                    f477                  
+0.L06                    f47b                  
+0.L07                    f482                  
+0.L08                    f489                  
+0.L09                    f492                  
 0.main                   f45d              (R )
 0.skipDrawlastP0         f172              (R )
 0.skipDrawlastP1         f10c              (R )
 0.skipDrawP0             f083              (R )
 0.skipDrawP1             f089              (R )
+0.skipL06                f482              (R )
+0.skipL07                f489              (R )
+0.skipL08                f492              (R )
+0.skipL09                f49b              (R )
 0.startkernel            f0a8              (R )
 1.CYCLES                 0000              (R )
 19.CYCLES                0000              (R )
@@ -42,8 +59,8 @@ aux3                     00f2
 aux4                     00f3                  
 aux5                     00f4                  
 aux6                     00f5                  
-b                        00d5                  
 B                        00d5                  
+b                        00d5                  
 backgroundchange         0000 ????         (R )
 ballheight               0092              (R )
 ballx                    0084                  
@@ -71,8 +88,8 @@ CXM1P                    0001
 CXP0FB                   0002                  
 CXP1FB                   0003                  
 CXPPMM                   0007                  
-D                        00d7                  
 d                        00d7                  
+D                        00d7                  
 debugcycles              0000 ????         (R )
 debugscore               0000 ????         (R )
 DivideLoop               f3e1              (R )
@@ -80,8 +97,8 @@ doneoverscan             f3c2
 down2                    f38d              (R )
 DPC_kernel_options       0000 ????         (R )
 drawscreen               f3bd              (R )
-e                        00d8                  
 E                        00d8                  
+e                        00d8                  
 ECHOFIRST                0001                  
 ENABL                    001f              (R )
 ENAM0                    001d              (R )
@@ -125,8 +142,8 @@ interrupted              0004
 INTIM                    0284              (R )
 j                        00dd                  
 J                        00dd                  
-k                        00de                  
 K                        00de                  
+k                        00de                  
 keepgoing                f284              (R )
 keepgoingy               f2a0              (R )
 kernel                   f034              (R )
@@ -213,8 +230,8 @@ player0color             0090
 player0colorstore        0082                  
 player0height            008e              (R )
 player0pointer           008a              (R )
-player0pointerhi         008b                  
-player0pointerlo         008a                  
+player0pointerhi         008b              (R )
+player0pointerlo         008a              (R )
 player0x                 0080              (R )
 player0y                 0085              (R )
 player1color             0087                  
@@ -226,16 +243,17 @@ player1pointerlo         008c
 player1x                 0081                  
 player1y                 0086              (R )
 playercolors             0000 ????         (R )
+playerL03_0              f4b6              (R )
 playfield                00a4              (R )
 playfieldbase            00a4              (R )
 playfieldpos             00ef              (R )
 plotpoint                f2ac              (R )
 PXE                      0000 ????         (R )
-q                        00e4                  
 Q                        00e4                  
+q                        00e4                  
 qtcontroller             0000 ????         (R )
-r                        00e5                  
 R                        00e5                  
+r                        00e5                  
 rand                     00a2              (R )
 rand16                   0000 ????         (R )
 randomize                f3b3                  
@@ -254,8 +272,8 @@ retroputer               0005
 rightloop                f30d              (R )
 ROM2k                    0000 ????         (R )
 RSYNC                    0003                  
-S                        00e6                  
 s                        00e6                  
+S                        00e6                  
 score                    0093              (R )
 scorecolor               00a3              (R )
 scorefade                0000 ????         (R )
@@ -275,7 +293,7 @@ statusbarlength          00f5
 superchip                0000 ????         (R )
 SWACNT                   0281                  
 SWBCNT                   0283                  
-SWCHA                    0280                  
+SWCHA                    0280              (R )
 SWCHA2                   0286                  
 SWCHB                    0282                  
 t                        00e7                  
@@ -299,8 +317,8 @@ tiny                     0007
 u                        00e8                  
 U                        00e8                  
 up2                      f342              (R )
-V                        00e9                  
 v                        00e9                  
+V                        00e9                  
 var0                     00a4                  
 var1                     00a5                  
 var10                    00ae                  
@@ -367,8 +385,8 @@ whimsey                  0006
 WSYNC                    0002              (R )
 X                        00eb                  
 x                        00eb                  
-Y                        00ec                  
 y                        00ec                  
-Z                        00ed                  
+Y                        00ec                  
 z                        00ed                  
+Z                        00ed                  
 --- End of Symbol List.
