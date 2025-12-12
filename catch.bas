@@ -1,17 +1,25 @@
- rem **************************************************************************
- rem catch
- rem **************************************************************************
+ set kernel_options no_blank_lines readpaddle
+
+ playfield:
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ X....X...................X....X
+ X.............................X
+ X.............................X
+ X.............................X
+ X.............................X
+ X.............................X
+ X.............................X
+ X.............................X
+ X....X...................X....X
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+end
+
 
 main
 
  currentpaddle = 0
 
- rem Scale 0-77ish to screen X (0-154)
- player0x = paddle_val * 2 + 1
- if player0x > 140 then player0x = 140  rem Clamp
-
- rem Fire button
- if joy0right then missile0y = player0y
+ drawscreen
 
  score = paddle
 
