@@ -27,8 +27,8 @@ main
 
  player0x=paddle*2
 
- bally = bally+1
- if switchleftb then bally = bally+1
+ bally = bally+2
+ if switchleftb then bally = bally-1
 
  if collision(player0, ball) then score = score +1: bally=0: ballx=rand: AUDC0=1: AUDV0=15
 
