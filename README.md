@@ -12,6 +12,8 @@ Think of it as a very much simplified version of "Breakout" or "Kaboom!".
 
 I wrote this game for my kids who are very little, as a training excercise to get accustomed to the paddle controller.
 
-Set difficulty switch to A to increase the speed of the ball.
+Set left difficulty switch to A to increase the speed of the ball.
+
+Set right difficulty switch to A to halve the size of the paddle.
 
 Enjoy!

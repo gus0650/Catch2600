@@ -30,6 +30,8 @@ main
  bally = bally+2
  if switchleftb then bally = bally-1
 
+ if switchrightb then NUSIZ0 = $15
+
  if collision(player0, ball) then score = score +1: bally=0: ballx=rand: AUDC0=1: AUDV0=15
 
  if bally > 80 then bally=0: ballx=rand: AUDC0=15: AUDV0=15
