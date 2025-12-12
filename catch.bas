@@ -1,26 +1,14 @@
+ rem catch
+
  set kernel_options no_blank_lines readpaddle
 
- playfield:
- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
- X....X...................X....X
- X.............................X
- X.............................X
- X.............................X
- X.............................X
- X.............................X
- X.............................X
- X.............................X
- X....X...................X....X
- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-end
+ COLUPF = 22
+ COLUBK = 2
 
-
-main
-
+mainloop
  currentpaddle = 0
-
  drawscreen
-
  score = paddle
+ goto mainloop
 
- goto main
+
