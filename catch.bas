@@ -1,7 +1,7 @@
  rem CATCH2600
  rem V1.0
- rem by Gustaf Stechmann
  rem written in Batari BASIC
+ rem by Gustaf Stechmann
  rem in 2025
  
  set kernel_options no_blank_lines readpaddle
