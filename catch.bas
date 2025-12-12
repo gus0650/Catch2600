@@ -1,5 +1,5 @@
  rem CATCH2600
- rem V1.0
+ rem V1.1
  rem written in Batari BASIC
  rem by Gustaf Stechmann
  rem in 2025
@@ -35,6 +35,8 @@ main
  if collision(player0, ball) then score = score +1: bally=0: ballx=rand: AUDC0=1: AUDV0=15
 
  if bally > 80 then bally=0: ballx=rand: AUDC0=15: AUDV0=15
+
+ if ballx > 160 then ballx=80
 
  if switchreset then score = 0: AUDC0=5: AUDV0=15
 
