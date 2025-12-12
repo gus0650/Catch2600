@@ -17,9 +17,9 @@ end
  ballx = 50
 
 main
- COLUP0=64 
- COLUPF=244
- COLUBK = 2
+ COLUP0=$9a
+ COLUPF=255
+ COLUBK=02
  
  AUDV0=0
 
